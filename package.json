@@ -1,0 +1,46 @@
+{
+  "name": "darkgpt-telegram-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram bot powered by GPT-4o-mini via OpenRouter - Developed by ssa",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test.js",
+    "deploy": "npm install && npm start"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "gpt",
+    "ai",
+    "openrouter",
+    "darkgpt",
+    "ssa",
+    "chatbot",
+    "artificial-intelligence"
+  ],
+  "author": "ssa",
+  "license": "MIT",
+  "dependencies": {
+    "telegraf": "^4.15.6",
+    "openai": "^4.28.4",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/darkgpt-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/darkgpt-bot/issues"
+  },
+  "homepage": "https://github.com/yourusername/darkgpt-bot#readme"
+}
